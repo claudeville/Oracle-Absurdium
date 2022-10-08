@@ -1,0 +1,59 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+html {
+  background: url(oracle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    width: 82%;
+    max-width: 500px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+button {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 45px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgba(0,0,0,.2);
+    transition: transform .3s;
+}
+
+
+button:focus {
+outline:none; /* Not ideal for accessibility */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-animation {
+    animation: fade .5s;
+}
+}
